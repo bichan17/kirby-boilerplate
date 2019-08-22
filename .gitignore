@@ -1,0 +1,57 @@
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/public_html/media/*
+!/public_html/media/index.html
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/public_html/site/cache/*
+!/public_html/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/public_html/site/accounts/*
+!/public_html/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/public_html/site/sessions/*
+!/public_html/site/sessions/index.html
+
+# License
+# ---------------
+/public_html/site/config/.license
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+node_modules/
+tmp/
+.npm
+.eslintcache
+
+
+# dotenv environment variables file
+.env
+
+
